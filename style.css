@@ -1,0 +1,247 @@
+/* Reset CSS uchun */
+html, body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+ul{
+    list-style: none;
+}
+button{
+    border: none;
+}
+.contener{
+    margin: 0 auto;
+    width: 1140px;
+}
+.bosh-qismi{
+    background-color:rgba(160, 30, 183, 0.742);
+    display: flex;
+    justify-content:space-around;
+    height: 60%;
+    padding-top: 2%;
+}
+.menyu{
+    list-style: none;
+    display: flex;
+    width: 40%;
+    color: rgb(232, 235, 245);
+    justify-content: space-between;
+    
+}
+.bosh-text{
+    color: white;
+}
+li{
+    font-size: 20px;
+}
+.sale{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(33, 28, 26);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+    border: 2px solid yellow;
+}
+
+/* Umumiy sahifa ko'rinishi */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #c1bfc1;
+    color: #333;
+    margin: 0;
+}
+
+/* Header stilini belgilash */
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+} 
+
+.banner {
+    background-image: url("images/777.jpg"); 
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+
+/* Header so'zlar stilini belgilash */
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Navbar stilini belgilash */
+nav ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main konteyner stilini belgilash */
+main {
+    padding: 2rem;
+}
+
+/* Footer stilini belgilash */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex: 0 0 30%; /* Ustunlar 30% kenglikda bo'lishi */
+    text-align: center;
+  }
+  
+  .column img {
+    width: 100%;
+    height: 40%;
+    display: block;
+  }
+  
+  .column p {
+    margin-top: 5px;
+  }
+  .paket {
+    
+    
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    margin-right: 10px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+.contact {
+    
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #333;
+}
+
+.contact p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label,
+form textarea,
+form input {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}body {
+    background-color: #f0f0f0; /* Orqa fon rangi */
+    font-family: Arial, sans-serif; /* Matn shrifti */
+    color: #333; /* Matn rangi */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .content {
+    /* Konteyner (maqola) rangi */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(37, 9, 9, 0.1); /* kutubxona unutilmasi */
+  }
+  body {
+    background-image: url("images/qqq.jpt.jpg"); /* Orqa fon rasmi */
+    background-size: cover; /* Rasminga ekran o'lchamida moslashtirish */
+    background-repeat: no-repeat; /* Rasmi takrorlamaslik */
+    color: rgb(0, 0, 0); /* Matn rangi */
+  }
+  .beautiful-bg {
+    background-image: url('images/11111.jpg'); /* Orqa fon rasmini bilan almashtiring */
+    color: rgb(255, 248, 248); /* Qora shrift rangi */
+    font-family: 'Times New Roman', Times, serif; /* Shrift turi */
+    w
+    /* Boshqa CSS xususiyatlari */
+  }
+  
+
+
